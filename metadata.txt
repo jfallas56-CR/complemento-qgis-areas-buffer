@@ -1,0 +1,31 @@
+[general]
+name=Crear Zonas Influencia
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+supportsQt6=True
+description=Advanced buffer tool for QGIS with 9 buffer types (Circular, Oval, Rectangular, Concentric, By Area, One Side, Wedge, Adaptive by Density, Variable Width), dynamic field-based sizing, ISO 19157 quality reports, overlap analysis, parallel processing and dry-run validation.
+about=Crear Zonas de Influencia Personalizadas - Advanced Buffer Generator for QGIS.
+    Algoritmo integral de geoprocesamiento para la generacion de zonas de influencia personalizadas con control geometrico avanzado, auditoria de calidad y trazabilidad metodologica completa.
+    TIPOS DE BUFER (9): Circular, Oval, Rectangular, Concentrico, Por Area, Un Solo Lado, Cuna, Adaptativo por Densidad, Ancho Variable (Puntos).
+    Incluye procesamiento paralelo multihilo, validacion previa (dry-run), reporte HTML ISO 19157:2023 y exportacion JSON de configuracion.
+    Requisitos: QGIS >= 3.28 (LTR), compatible con Qt5 y Qt6. Sin dependencias Python externas.
+version=1.0.0
+author=Jorge Fallas
+email=jfallas56@gmail.com
+license=GPL-2.0-or-later
+homepage=https://github.com/jfallas56-CR/complemento-qgis-areas-buffer
+tracker=https://github.com/jfallas56-CR/complemento-qgis-areas-buffer/issues
+repository=https://github.com/jfallas56-CR/complemento-qgis-areas-buffer
+icon=icon.png
+experimental=False
+deprecated=False
+hasProcessingProvider=yes
+tags=bufer, buffer, zona de influencia, geometria, vector, analisis, corredor, cuna, catastro, zonificacion, poligono, simplificacion, integridad, validacion, topologia, ISO 19157, calidad de datos, completitud, consistencia logica, traslape, superposicion, paralelo, multihilo, prevision, exclusion, densidad espacial, KNN, adaptativo, JSON, ancho variable, makeValid, disolucion, huecos, Qt6, geoprocesamiento, concentrico, un solo lado, por area
+category=Vector
+changelog=1.0.0 - Version inicial publica.
+    - 9 tipos de bufer incluyendo Adaptativo por Densidad y Ancho Variable.
+    - Reporte HTML ISO 19157:2023 completo.
+    - Procesamiento paralelo multihilo.
+    - Modo dry-run de validacion previa.
+    - Exportacion de configuracion JSON.
+    - Compatible con QGIS >= 3.28, Qt5 y Qt6.
